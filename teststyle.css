@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+  }
+  .animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+    border-radius: 50%; 
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #f0610296;
+    border: none;
+    border-radius: 200px;
+    transition: all 0.3s ease;
+    margin: 10px;
+    animation: pulse 2s infinite;
+    background: linear-gradient(to right, #ee520a, #030303);
+  }
+  
+  .animated-button:hover {
+    background-color: #e4a909;
+    transform: scale(1.1);
+  }
+  
+  .animated-button:active {
+    background-color: #045fe7;
+    box-shadow: 0 5px rgb(248, 246, 246);
+    transform: scale(1);
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  .animated-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #f0610296;
+    border: none;
+    border-radius: 15px;
+    border-radius: 200px;
+    transition: all 0.3s ease;
+    margin: 10px;
+    animation: pulse 2s infinite;
+    background: linear-gradient(to right, #ee520a, #030303);
+    background-image: url(./Cannabis_leaf.png);
+    background-size: cover;
+  }
+  
+  .animated-button1:hover {
+    background-color: #e4a909;
+    transform: scale(1.1);
+  }
+  
+  .animated-button1:active {
+    background-color: #0b66f0;
+    box-shadow: 0 5px rgb(248, 246, 246);
+    transform: scale(12);
+  }
+
+  .white-text{
+    color: white;
+  }
+
+  header h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
