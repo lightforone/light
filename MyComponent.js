@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './teststyle.css';
 import mainbg from './mainbg.jpg'
+import { Animation } from 'react-animations';
+import lbox from './lightbox.png';
+import sun from './sunTest.png';
 
 
 const MyComponent = () => {
@@ -26,10 +29,23 @@ const MyComponent = () => {
 
   return (
     <div style={bodyStyle}>
-      <header>
+      {/*<header>
+      <img src={lbox} alt="My logo" />
       <h1>One more Light</h1>
-    </header>
+    </header>*/}
     <body>
+    <div className="sun">
+      <div className="sun-ray"></div>
+      <div className="sun-ray"></div>
+      <div className="sun-ray"></div>
+      <div className="sun-ray"></div>
+      <div className="sun-ray"></div>
+      <div className="sun-ray"></div>
+      <div className="sun-center"></div>
+    </div>
+    <div>
+    <sun/>
+    </div>
     <main>
       <section className='white-text'>
         <h2>About Us</h2>
@@ -47,9 +63,6 @@ const MyComponent = () => {
         </ol>
       </section>
     </main>
-    <footer>
-      <p>Beware of what's happening, we are on our way</p>
-    </footer>
     </body>
     </div>
   );

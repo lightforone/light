@@ -107,3 +107,64 @@ body {
     text-align: center;
   }
   
+  .sun {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(247, 243, 10);
+    animation: spin 20s linear infinite;
+  }
+  
+  .sun-face {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: #070866;
+  }
+  
+  .sun-ray {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-top: 25px solid rgb(245, 103, 8);
+    transform: rotate(45deg);
+  }
+  
+  .sun-ray:nth-child(1) {
+    transform: rotate(30deg);
+  }
+  
+  .sun-ray:nth-child(2) {
+    transform: rotate(60deg);
+  }
+  
+  .sun-ray:nth-child(3) {
+    transform: rotate(90deg);
+  }
+  
+  .sun-ray:nth-child(4) {
+    transform: rotate(120deg);
+  }
+  
+  .sun-ray:nth-child(5) {
+    transform: rotate(150deg);
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
