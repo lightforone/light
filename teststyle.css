@@ -162,7 +162,7 @@ body {
   
   @keyframes spin {
     from {
-      transform: rotate(180deg);
+      transform: rotate(90deg);
     }
     to {
       transform: rotate(360deg);
