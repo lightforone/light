@@ -135,8 +135,9 @@ body {
     width: 0;
     height: 0;
     border-right: 15px solid transparent;
-    border-top: 25px solid rgb(245, 103, 8);
-    transform: rotate(45deg);
+    border-top: 25px solid yellow;
+    transform: rotate(45deg) translate(-50%, -50%);
+    transform-origin: center;
   }
   
   .sun-ray:nth-child(1) {
@@ -161,7 +162,7 @@ body {
   
   @keyframes spin {
     from {
-      transform: rotate(0deg);
+      transform: rotate(180deg);
     }
     to {
       transform: rotate(360deg);
